@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Generated artifacts (vector store + usage DB)
+storage/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Scratch
+_extracted.txt
+
+# Assignment brief (internal — keep local, don't publish)
+Junior_AI_Developer_Task_Vestaff.pdf.pdf
+
+# Demo video — too large for GitHub; host externally and link in the README
+*.mp4
+*.mov
+*.avi

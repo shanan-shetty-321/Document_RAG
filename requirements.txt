@@ -1,0 +1,26 @@
+# --- RAG framework (LangChain) ---
+langchain                 # core orchestration
+langchain-community       # BM25Retriever, EnsembleRetriever
+langchain-huggingface     # HuggingFaceEmbeddings (local, free)
+langchain-chroma          # Chroma vector store integration
+langchain-ollama          # ChatOllama (local LLM)
+langchain-text-splitters  # text splitting utilities
+
+# --- Embeddings + vector store + keyword search ---
+sentence-transformers     # backs HuggingFaceEmbeddings (bge-small-en-v1.5)
+chromadb                  # vector store (cosine similarity)
+rank-bm25                 # BM25 keyword retrieval backend
+
+# --- PDF parsing ---
+pypdf                     # PDF text extraction (native text layer; no OCR needed)
+
+# --- Backend API ---
+fastapi                   # REST API framework
+uvicorn[standard]         # ASGI server
+pydantic                  # request/response validation (ships with fastapi)
+python-dotenv             # load config from .env
+
+# --- Frontend ---
+streamlit                 # chat UI + analytics dashboard
+requests                  # Streamlit -> FastAPI HTTP calls
+pandas                    # tables / charts in the analytics view
