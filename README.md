@@ -20,12 +20,7 @@ A few things worth calling out up front:
 - **Answers cite their source section**, and out-of-scope questions get a
   "not found" reply rather than a hallucinated one.
 
-## Demo
 
-A short walkthrough (asking a question, seeing the cited answer and an
-out-of-scope "not found", then the analytics dashboard) is here:
-
-**▶️ [demo video link — add yours here]**
 
 ---
 
